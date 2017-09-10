@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.55"
+        android:background="@color/dark_gray" >
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.35"
+        android:background="@drawable/brushed_silver_metallic_background" >
+
+        <com.ksorat.foscamremote.JoystickView
+            android:id="@+id/joystickView1"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toLeftOf="@+id/joystickView1"
+            android:orientation="vertical" >
+
+            <Spinner
+                android:id="@+id/cameras_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dip"
+                android:layout_marginTop="6dip" >
+
+                <ToggleButton
+                    android:id="@+id/hPatrolToggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dip"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textSize="12sp"
+                    android:textOff="@string/h_patrol"
+                    android:textOn="@string/h_patrol"
+                    android:width="@dimen/toggleButtonWidth" />
+
+                <ToggleButton
+                    android:id="@+id/vPatrolToggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textSize="12sp"
+                    android:textOff="@string/v_patrol"
+                    android:textOn="@string/v_patrol"
+                    android:width="@dimen/toggleButtonWidth" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dip"
+                android:layout_marginTop="0dip" >
+
+                <ToggleButton
+                    android:id="@+id/speakerToggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dip"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textSize="12sp"
+                    android:textOff="@string/speaker"
+                    android:textOn="@string/speaker"
+                    android:width="@dimen/toggleButtonWidth" />
+
+                <ToggleButton
+                    android:id="@+id/micToggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textSize="12sp"
+                    android:textOff="@string/mic"
+                    android:textOn="@string/mic"
+                    android:width="@dimen/toggleButtonWidth" />
+                <!--
+                	android:drawableTop="@drawable/btn_radio_on_holo_dark"
+                    android:lines="0"
+                -->
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

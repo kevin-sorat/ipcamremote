@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<!--
+    <item
+        android:id="@+id/change_view"
+        android:orderInCategory="2"
+        android:title="@string/change_view"
+        android:showAsAction="ifRoom|withText">
+    </item>
+    -->
+</menu><!-- From: file:/Users/kevin_sorat/AndroidstudioProjects/IPCamRemote/app/src/main/res/menu/multi_view.xml -->

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/kevin_sorat/AndroidstudioProjects/IPCamRemote/app/src/main/res/values-v11/apptheme_themes.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo">
+
+    <item name="android:editTextBackground">@drawable/edit_text_holo_dark</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewAppTheme</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_holo_dark</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_dark</item>
+
+    <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonAppTheme</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerAppTheme</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarAppTheme</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarAppTheme</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarAppTheme</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigAppTheme</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallAppTheme</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleAppTheme</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_dark</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo_dark</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+
+  </style>
+    <!-- From: file:/Users/kevin_sorat/AndroidstudioProjects/IPCamRemote/app/src/main/res/values-v11/apptheme_styles.xml -->
+    <eat-comment/>
+    <style name="AutoCompleteTextViewAppTheme" parent="android:Widget.Holo.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/list_selector_holo_dark</item>
+	    <item name="android:background">@drawable/edit_text_holo_dark</item>
+  </style>
+    <style name="ButtonAppTheme" parent="android:Widget.Holo.Button">
+	  <item name="android:background">@drawable/btn_default_holo_dark</item>
+  </style>
+    <style name="ImageButtonAppTheme" parent="android:Widget.Holo.ImageButton">
+	  <item name="android:background">@drawable/btn_default_holo_dark</item>
+  </style>
+    <style name="ProgressBarAppTheme" parent="android:Widget.Holo.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/progress_horizontal_holo_dark</item>
+      <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_holo_dark</item>
+  </style>
+    <style name="RatingBarAppTheme" parent="android:Widget.Holo.RatingBar">
+      <item name="android:progressDrawable">@drawable/ratingbar_full_holo_dark</item>
+      <item name="android:indeterminateDrawable">@drawable/ratingbar_full_holo_dark</item>
+  </style>
+    <style name="RatingBarBigAppTheme" parent="android:Widget.Holo.RatingBar.Indicator">
+      <item name="android:progressDrawable">@drawable/ratingbar_holo_dark</item>
+      <item name="android:indeterminateDrawable">@drawable/ratingbar_holo_dark</item>
+  </style>
+    <style name="RatingBarSmallAppTheme" parent="android:Widget.Holo.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/ratingbar_small_holo_dark</item>
+      <item name="android:indeterminateDrawable">@drawable/ratingbar_small_holo_dark</item>
+  </style>
+    <style name="SeekBarAppTheme" parent="android:Widget.Holo.SeekBar">
+      <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_dark</item>
+      <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_dark</item>
+      <item name="android:thumb">@drawable/scrubber_control_selector_holo_dark</item>
+  </style>
+    <style name="SpinnerAppTheme" parent="android:Widget.Holo.Spinner">
+      <item name="android:background">@drawable/spinner_background_holo_dark</item>
+      <item name="android:dropDownSelector">@drawable/list_selector_holo_dark</item>
+  </style>
+    <style name="ToggleAppTheme" parent="android:Widget.Holo.Button.Toggle">
+      <item name="android:background">@drawable/btn_toggle_holo_dark</item>
+  </style>
+</resources>

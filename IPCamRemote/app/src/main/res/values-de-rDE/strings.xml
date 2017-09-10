@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">IP Cam Remote</string>
+	<string name="brightness">Helligkeit</string>
+	<string name="contrast">Gegensatz</string>
+	<string-array name="cameras_array">
+		<item>1:</item>
+		<item>2:</item>
+		<item>3:</item>
+		<item>4:</item>
+		<item>5:</item>
+		<item>6:</item>
+		<item>7:</item>
+		<item>8:</item>
+		<item>9:</item>
+		<item>10:</item>
+		<item>11:</item>
+		<item>12:</item>
+		<item>13:</item>
+		<item>14:</item>
+		<item>15:</item>
+		<item>16:</item>
+        <item>17:</item>
+        <item>18:</item>
+	</string-array>
+	<string name="cancel">Kündigen</string>
+	<string name="clear">Löschen</string>
+	<string name="connection_settings">Verbindung</string>
+	<string name="connection_settings_colon">Verbindung:</string>
+	<string name="display_settings_colon">Bildschirm/Kontrolleur:</string>
+	<string name="enable_android_notification">Aktivieren Android-Benachrichtigung\n(nur Bewegungserkennung)</string>
+	<string name="enable_email_notification">E-Mailbenachrichtigung</string>
+	<string name="flip_vertically">Flip Screen</string>
+	<string name="flip_control_vertically">Flip Kontrolleur</string>
+	<string name="ipcam_view_cannot_be_displayed">IP Camera kann nicht dargestellt werden. Stellen  Sie sicher, Sie haben eine Internet-Verbindung und sofern die richtigen Informationen in den \&quot;Verbindung\&quot;.</string>
+	<string name="go_to_monitoring_system">Zum Monitoring System</string>
+	<string name="h_patrol">H-Patrol</string>
+	<string name="menu_settings">Einstellungen</string>
+	<string name="mirror">Spiegel</string>
+	<string name="mirror_control">Spiegel Kontrolleur</string>
+	<string name="name_colon">Name:</string>
+	<string name="notification_settings">Benachrichtigung</string>
+	<string name="notification_settings_colon">Benachrichtigung:</string>
+	<string name="ok">OK</string>
+	<string name="password_colon">Kennwort:</string>
+	<string name="port_number_colon">Port-Nummer:</string>
+	<string name="screen_settings">Bildschirm/Kontrolleur</string>
+	<string-array name="sensitivity_array">
+        <item>10 (groß)</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1 (Sehr Gering)</item>
+    </string-array>
+    <string-array name="sensitivity_array_h264">
+		<item>unterste</item>
+		<item>niedriger</item>       
+        <item>niedrig</item>
+        <item>mittel</item>
+        <item>hoch</item>
+    </string-array>
+	<string name="sensitivity_colon">Empfindlichkeit:</string>
+	<string name="title_activity_main">MainActivity</string>
+	<string name="title_activity_ipcam_settings_dialog">IPCamSettingsDialogActivity</string>
+	<string name="to_adjust_brightness_and_contrast">Um Helligkeit und Kontrast einzustellen, schließen Sie diesen Dialog, dann tippen Sie irgendwo auf dem Display der Kamera.\n\nVerbreiten Sie zwei Finger auseinander, um es zu vergrößern und eine Prise zwei Finger zusammen, um herauszuzoomen.\n\nDrücken und halten Sie den Bildschirm für ein paar Sekunden, um die Zoomstufe zurückgesetzt.</string>
+	<string name="url_path_colon">URL-Pfad (oder IP-Adresse):</string>
+	<string name="user_name_colon">Benutzername:</string>
+	<string name="v_patrol">V-Patrol</string>
+	<string name="your_camera_url_path_is_invalid">Ihre Kamera URL-Pfad ist ungültig.</string>
+	<string name="speaker">Lautsprecher</string>
+	<string name="mic">Mic</string>
+	<string name="ir_on">IR auf</string>
+	<string name="ir_off">IR aus</string>
+	<string name="mic_on">Mikrofon auf</string>
+	<string name="mic_off">Mikrofon aus</string>
+	<string name="keep_screen_on">Halten Sie das Display eingeschaltet</string>
+	<string name="keep_speaker_on">Halten Sie den Lautsprecher eingeschalte</string>
+	<string name="loading">Beladung</string>
+	<string name="change_view">Multi-Kamera-Ansicht</string>
+    <string name="camera_name_empty">Die Kamera darf nicht leer sein.</string>
+    <string name="url_empty">Ihre Kamera URL-Pfad darf nicht leer sein.</string>
+    <string name="port_number_empty">Ihre Portnummer darf nicht leer sein.</string>
+    <string name="user_name_empty">Ihr Benutzername Feld kann nicht leer sein.</string>
+    <string name="duplicate_ipcam">Ein Duplikat IP Camera existiert bereits. Verwenden Sie eine andere URL-Pfad oder Port-Nummer.</string>
+    <string name="duplicate_public_ipcam">Ein Duplikat Öffentliche Kamera ist bereits vorhanden. Wählen Sie eine andere Öffentliche Kamera.</string>
+    <string name="take_pict">Bild aufnehmen</string>
+    <string name="snapshot_has_been_created">\"{0}\" wurde erstellt.</string>
+    <string name="snapshot_could_not_be_taken">Ein Bild kann nicht übernommen werden.</string>
+    <string name="remove_ad_in_app">Entfernen von Ad (In-app Purchase)</string>
+    <string name="remove_ad">Entfernen von Ad</string>
+    <string name="display_ad">Display-Anzeigen</string>
+    <string name="public_camera_colon">Öffentliche Kamera:</string>
+    <string name="enter_fullscreen">Aktivieren Vollbild</string>
+    <string name="exit_fullscreen">Deaktivieren Vollbild</string>
+    <string name="low_res">Niedrige Auflösung</string>
+    <string name="preset">Preset</string>
+    <string name="set">Setzen</string>
+    <string name="go">Gehen</string>
+    <string name="in_app_success">Vielen Dank für Ihr In-App-Kauf!</string>
+    <string name="in_app_failed">Die In-App-Kauf war nicht erfolgreich. Bitte versuchen Sie es erneut.</string>
+    <string name="motion_detected">Bewegung erkannt!</string>
+    <string name="launch">Start</string>
+    <string name="disable">Deaktivieren</string>
+    <string name="android_notification_has_been_disabled">Die Anmeldung für IP Cam Remote deaktiviert.</string>
+    <string name="you_can_re_enable_the_notification">Sie können wieder aktivieren, die Benachrichtigung von Benachrichtigungseinstellungen IP Cam Remotes.</string>
+    <string name="camera_type">Art der Kamera</string>
+    <string name="public_camera">Öffentlichkeit</string>
+    <string name="enable_motion_detection">Bewegungserkennung aktivieren</string>
+    <string name="enable_sound_detection">Geräuscherkennung aktivieren</string>
+    <string name="wide_screen">16:9 (Breitbild)</string>
+	<string name="plese_wait">warten sie mal &#8230;</string>
+</resources>

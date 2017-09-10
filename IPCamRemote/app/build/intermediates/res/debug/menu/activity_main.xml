@@ -1,0 +1,61 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/connection_settings"
+        android:orderInCategory="1"
+        android:title="@string/connection_settings"/>
+    <item
+        android:id="@+id/notification_settings"
+        android:orderInCategory="2"
+        android:title="@string/notification_settings">
+    </item>
+    <item
+        android:id="@+id/screen_settings"
+        android:orderInCategory="3"
+        android:title="@string/screen_settings">
+    </item>
+    <!--
+    <item
+        android:id="@+id/enter_fullscreen"
+        android:orderInCategory="4"
+        android:title="@string/enter_fullscreen">
+    </item>
+    <item
+        android:id="@+id/exit_fullscreen"
+        android:orderInCategory="5"
+        android:title="@string/exit_fullscreen">
+    </item>
+    -->
+    <item
+        android:id="@+id/go_to_monitoring_system"
+        android:orderInCategory="6"
+        android:title="@string/go_to_monitoring_system">
+    </item>
+    <item
+        android:id="@+id/take_pict"
+        android:orderInCategory="7"
+        android:title="@string/take_pict"
+        android:showAsAction="ifRoom" 
+        android:icon="@drawable/ic_action_cam">
+    </item>
+    <item
+        android:id="@+id/change_view"
+        android:orderInCategory="8"
+        android:title="@string/change_view"
+        android:showAsAction="ifRoom" 
+        android:icon="@drawable/ic_multiview">
+    </item>
+    <item android:id="@+id/remove_ad_in_app" 
+        android:orderInCategory="9"
+    	android:title="@string/remove_ad_in_app">
+    </item>
+    <item android:id="@+id/remove_ad" 
+        android:orderInCategory="10"
+    	android:title="@string/remove_ad">
+    </item>
+    <item android:id="@+id/display_ad" 
+        android:orderInCategory="11"
+    	android:title="@string/display_ad">
+    </item>
+    
+</menu><!-- From: file:/Users/kevin_sorat/AndroidstudioProjects/IPCamRemote/app/src/main/res/menu/activity_main.xml -->

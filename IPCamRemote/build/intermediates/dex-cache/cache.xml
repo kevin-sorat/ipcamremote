@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/kevin_sorat/AndroidstudioProjects/IPCamRemote/ipcamremotewear/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2f958cff6198f222923ef646cbc17a7f38935c2b">
+        <dex dex="/Users/kevin_sorat/AndroidstudioProjects/IPCamRemote/ipcamremotewear/build/intermediates/pre-dexed/debug/classes-a55daff907c004175f1bc522caf7df0394bf8eba.jar" />
+    </item>
+
+</items>

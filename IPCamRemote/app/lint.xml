@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="UselessParent">
+        <ignore path="res/layout-port/brightness_contrast.xml" />
+    </issue>
+</lint>

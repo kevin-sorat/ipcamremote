@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IP Cam Remote</string>
+    <string name="error_msg">Cannot load the image. Please check the settings in mobile app.</string>
+    <string name="waiting_text">Loading... Please wait</string>
+    <string name="error_text">Error!</string>
+    <string name="status_text">{0}: {1}</string>
+    <string name="open_on_phone">Open on Phone</string>
+    <string name="help">Help</string>
+    <string name="watermark_text">To remove this sentence, please purchase \"IP Cam Remote Wear\" in-app item from mobile app.</string>>
+</resources>

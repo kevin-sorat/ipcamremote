@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IP Cam Remote</string>
+    <string name="brightness">Brightness</string>
+    <string name="contrast">Contrast</string>
+
+    <string-array name="cameras_array">
+        <item>1:</item>
+        <item>2:</item>
+        <item>3:</item>
+        <item>4:</item>
+        <item>5:</item>
+        <item>6:</item>
+        <item>7:</item>
+        <item>8:</item>
+        <item>9:</item>
+        <item>10:</item>
+        <item>11:</item>
+        <item>12:</item>
+        <item>13:</item>
+        <item>14:</item>
+        <item>15:</item>
+        <item>16:</item>
+        <item>17:</item>
+        <item>18:</item>
+    </string-array>
+    
+    <string-array name="preset_array">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+	</string-array>
+
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="connection_settings">Connection Settings</string>
+    <string name="connection_settings_colon">Connection Settings:</string>
+    <string name="display_settings_colon">Screen/Control/Speaker Settings:</string>
+    <string name="enable_android_notification">Enable Android notification\n(motion detection only)</string>
+    <string name="enable_email_notification">Enable email notification</string>
+    <string name="flip_vertically">Flip Screen</string>
+    <string name="flip_control_vertically">Flip Control</string>
+    <string name="ipcam_view_cannot_be_displayed">IP Camera view cannot be displayed. Make sure you have an internet connection and provided the correct information in the \&quot;Connection Settings\&quot;.</string>
+    <string name="go_to_monitoring_system">Go to Monitoring System</string>
+    <string name="h_patrol">H-Patrol</string>
+    <string name="menu_settings">Settings</string>
+    <string name="mirror">Mirror Screen</string>
+    <string name="mirror_control">Mirror Control</string>
+    <string name="name_colon">Name:</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="notification_settings_colon">Notification Settings:</string>
+    <string name="ok">OK</string>
+    <string name="password_colon">Password:</string>
+    <string name="port_number_colon">Port Number:</string>
+    <string name="screen_settings">Screen/Control/Speaker Settings</string>
+    <string-array name="sensitivity_array">
+        <item>10 (highest)</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1 (lowest)</item>
+    </string-array>
+    <string-array name="sensitivity_array_h264">
+		<item>lowest</item>
+		<item>lower</item>       
+        <item>low</item>
+        <item>medium</item>
+        <item>high</item>
+    </string-array>
+    <string name="sensitivity_colon">Sensitivity:</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_ipcam_settings_dialog">IPCamSettingsDialogActivity</string>
+    <string name="to_adjust_brightness_and_contrast">To adjust brightness and contrast, close this dialog, then tap anywhere on the camera screen.\n\nSpread your two fingers apart to zoom in or pinch two fingers together to zoom out.\n\nPress and hold the camera screen for a few seconds to reset the zoom level.</string>
+    <string name="url_path_colon">URL Path (or IP Address):</string>
+    <string name="user_name_colon">User Name:</string>
+    <string name="v_patrol">V-Patrol</string>
+    <string name="your_camera_url_path_is_invalid">Your camera URL path is invalid.</string>
+    <string name="speaker">Speaker</string>
+    <string name="mic">Mic</string>
+    <string name="ir_on">IR On</string>
+    <string name="ir_off">IR Off</string>
+    <string name="mic_on">Microphone On</string>
+    <string name="mic_off">Microphone Off\n[Hold Mic button to keep it on.]</string>
+    <string name="keep_screen_on">Keep Screen On</string>
+    <string name="keep_speaker_on">Keep Speaker On</string>
+    <string name="wide_screen">16:9 (wide)</string>
+    <string name="loading">Loading</string>
+    <string name="change_view">Multi-Camera View</string>
+    <string name="camera_name_empty">Your camera name cannot be empty.</string>
+    <string name="url_empty">Your camera URL path cannot be empty.</string>
+    <string name="port_number_empty">Your port number cannot be empty.</string>
+    <string name="user_name_empty">Your user name field cannot be empty.</string>
+    <string name="duplicate_ipcam">A duplicate IP Camera already exists. Use another URL Path or Port Number.</string>
+    <string name="duplicate_public_ipcam">A duplicate Public Camera already exists. Choose another Public Camera.</string>
+    <string name="take_pict">Take Picture</string>
+    <string name="snapshot_has_been_created">\"{0}\" has been created.</string>
+    <string name="snapshot_could_not_be_taken">A snapshot could not be taken.</string>
+    <string name="remove_ad_in_app">Remove Ad (In-app Purchase)</string>
+    <string name="remove_ad">Remove Ad</string>
+    <string name="display_ad">Display Ad</string>
+    <string name="enter_fullscreen">Enter Fullscreen</string>
+    <string name="exit_fullscreen">Exit Fullscreen</string>
+    <string name="low_res">Low Resolution</string>
+    <string name="preset">Preset</string>
+    <string name="set">Set</string>
+    <string name="go">Go</string>
+    <string name="in_app_success">Thank you for your in-app purchase!</string>
+    <string name="in_app_failed">The in-app purchase was unsuccessful. Please try again.</string>
+    <string name="motion_detected">Motion detected!</string>
+    <string name="launch">Launch</string>
+    <string name="disable">Disable</string>
+    <string name="android_notification_has_been_disabled">Android notification has been disabled for IP Cam Remote.</string>
+    <string name="you_can_re_enable_the_notification">You can re-enable the notification from IP Cam Remote\'s Notification Settings.</string>
+    <string name="enable_motion_detection">Enable motion detection</string>
+    <string name="enable_sound_detection">Enable sound detection</string>
+    <string name="plese_wait">Please wait&#8230;</string>
+    
+    <string name="camera_type">Camera Type</string>
+    <string name="mjpeg">MJPEG</string>
+    <string name="h264">H.264</string>
+    <string name="public_camera">Public</string>
+    <string-array name="public_cam_array">
+        <item>64.122.208.241|8000|/axis-cgi/mjpg/video.cgi?resolution=320x240|Art Galery in USA</item>
+        <item>88.53.197.250|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Cathedral Italy</item>
+        <item>195.235.198.107|3346|/axis-cgi/mjpg/video.cgi?resolution=320x240|Cuenca Spain 1</item>
+        <item>195.235.198.107|3344|/axis-cgi/mjpg/video.cgi?resolution=320x240|Cuenca Spain 2</item>
+        <item>217.197.157.7|7070|/axis-cgi/mjpg/video.cgi?resolution=320x240|Czech Republic</item>
+        <item>194.17.150.25|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Karlstad Sweden</item>
+        <item>217.126.89.102|8020|/axis-cgi/mjpg/video.cgi?resolution=320x240|Marina in Spain</item>
+        <item>iris.not.iac.es|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Observatory in Spain</item>
+        <item>83.61.22.4|8080|/axis-cgi/mjpg/video.cgi?resolution=320x240|Playa de Maspalomas</item>
+        <item>212.219.113.227|80|/axis-cgi/mjpg/video.cgi|Scotland</item>
+        <item>82.89.169.171|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Sorrento Italy</item>
+        <item>cascam.ou.edu|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|University of Oklahoma</item>
+        
+        <!--
+        <item>porchcam.ece.utexas.edu|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Austin TX</item>
+        <item>200.33.20.193|2000|/axis-cgi/mjpg/video.cgi?resolution=320x240|Acapulco</item>
+        <item>87.245.83.189|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Schaffhausen Switzerland</item>
+        <item>87.139.23.123|80|/axis-cgi/mjpg/video.cgi?resolution=352x288|Restaurant</item>
+        <item>webcam.st-malo.com|80|/axis-cgi/mjpg/video.cgi?resolution=352x288|St. Malo France</item>
+        <item>128.177.29.248|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Kings Point USA</item>
+        <item>65.5.172.234|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|NC beach USA</item>
+        <item>85.105.45.76|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Alanya Turkey</item>
+        <item>144.122.47.204|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Ankara Turkey</item>
+        <item>61.196.218.1|80|/axis-cgi/mjpg/video.cgi|Osaka Japan</item>
+        <item>80.34.87.7|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Zaragoza Spain</item>
+        <item>24.227.114.58|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Daytona Beach</item>
+        <item>194.168.163.96|6001|/axis-cgi/mjpg/video.cgi?resolution=320x240|High Street - UK</item>
+        <item>skifunshop.no-ip.com|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Ski at Les Gets France</item>
+        <item>81.252.98.33|6001|/axis-cgi/mjpg/video.cgi?resolution=320x240|Restauration in France</item>
+        <item>217.173.193.218|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Town in Poland</item>
+        <item>cam1.rauris.net|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Ski town in Europe</item>
+        <item>160.9.137.11|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Rose Bowl UK</item>
+        <item>camera1.jupiterfoundation.org|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Puako Hawaii</item>
+        <item>cam-krms.imsys.ru|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Moscou</item>
+        <item>webcam.webtech.ch|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Town in Switzerland</item>
+        <item>80.33.241.154|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Satelite antena dish</item>
+        <item>webcam01.lugano.ch|80|/axis-cgi/mjpg/video.cgi?resolution=352x288|Lugano, Switzerland</item>
+        <item>200.242.95.222|1080|/axis-cgi/mjpg/video.cgi?resolution=320x240|Sao Luis, Brazil</item>
+        <item>webcam1.eldora.com|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Ski area</item>
+        <item>85.46.64.146|80|/axis-cgi/mjpg/video.cgi|Venice 1</item>
+        <item>85.46.64.147|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Venice 2</item>
+        <item>www.ttisealivecam.com|80|/axis-cgi/mjpg/video.cgi?resolution=352x240|Seattle port USA</item>
+        <item>62.180.109.233|80|/axis-cgi/mjpg/video.cgi|Max-Josefs-Platz</item>
+        <item>camera1.mairie-brest.fr|81|/mjpg/video.mjpg?resolution=704x576|La place de la liberte</item>
+        <item>82.188.208.242|80|/cgi-bin/mjpg/video.cgi|Monteveglio Bologna</item>
+        <item>pendulumcam2.eng.auburn.edu|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Pendulum</item> 
+        <item>62.212.113.92|15010|/axis-cgi/mjpg/video.cgi?resolution=480x360|Grenoble Bastille cable car</item>
+        <item>210.236.173.198|80|/axis-cgi/mjpg/video.cgi?resolution=352x240|Toba Aquarium</item>
+        <item>213.16.181.191|80|/axis-cgi/mjpg/video.cgi?resolution=320x240|Greece</item>
+        
+        <item>cam1.plavalaguna.hr|80|/record/current.jpg|Croatia</item>
+        <item>213.199.30.114|80|/control/faststream.jpg?stream=full|Italy</item>
+        <item>www.accu-com.com|802|/control/faststream.jpg?stream=full|Oshkosh</item>
+        
+        <item>7-milemarina.com|80|/image|Marina</item>
+       	<item>71.216.181.180|80|/image|Condo</item>
+       	<item>125.163.220.233|80|/image|Street in Japan</item>
+        
+        <item>213.218.26.109|80|/stream.jpg|Berlin, Germany</item>
+        <item>ycamdenmark1.no-ip.net|8155|/stream.jpg|Aalborg, Denmark</item>
+        <item>213.220.119.18|8150|/stream.jpg|Reykjavik, Iceland</item>
+        <item>mwc.dtdns.net|8150|/stream.jpg|Dunshaughlin, Ireland</item>
+        <item>praacam.dyndns.org|80|/stream.jpg|Praa Sands, Cornwall, UK</item>
+        <item>bulvision.no-ip.org|81|/stream.jpg|Office, Sofia, Bulgaria</item>
+        -->
+    </string-array>
+    
+</resources>

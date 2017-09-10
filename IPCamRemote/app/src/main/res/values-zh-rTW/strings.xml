@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">IP Cam 遠程控制</string>
+	<string name="brightness">亮度</string>
+	<string name="contrast">對比</string>
+	<string-array name="cameras_array">
+		<item>1:</item>
+		<item>2:</item>
+		<item>3:</item>
+		<item>4:</item>
+		<item>5:</item>
+		<item>6:</item>
+		<item>7:</item>
+		<item>8:</item>
+		<item>9:</item>
+		<item>10:</item>
+		<item>11:</item>
+		<item>12:</item>
+		<item>13:</item>
+		<item>14:</item>
+		<item>15:</item>
+		<item>16:</item>
+        <item>17:</item>
+        <item>18:</item>
+	</string-array>
+	<string name="cancel">取消</string>
+	<string name="clear">清除</string>
+	<string name="connection_settings">連接設置</string>
+	<string name="connection_settings_colon">連接設置:</string>
+	<string name="display_settings_colon">屏幕和控制器設置:</string>
+	<string name="enable_android_notification">讓Android的通知\n(只有移動偵測)</string>
+	<string name="enable_email_notification">啟用電子郵件通知</string>
+	<string name="flip_vertically">垂直翻轉</string>
+	<string name="flip_control_vertically">翻轉控制器</string>
+	<string name="ipcam_view_cannot_be_displayed">IP Camera不能被顯示。請確保你有一個互聯網連接，並提供正確的信息在“連接設置”。</string>
+	<string name="go_to_monitoring_system">監控系統</string>
+	<string name="h_patrol">臥式巡邏</string>
+	<string name="menu_settings">設置</string>
+	<string name="mirror">鏡</string>
+	<string name="mirror_control">鏡控制器</string>
+	<string name="name_colon">名稱:</string>
+	<string name="notification_settings">通知設置</string>
+	<string name="notification_settings_colon">通知設置:</string>
+	<string name="ok">確認</string>
+	<string name="password_colon">密碼:</string>
+	<string name="port_number_colon">端口號:</string>
+	<string name="screen_settings">屏幕和控制器設置</string>
+	<string-array name="sensitivity_array">
+        <item>10 (高)</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1 (超低)</item>
+    </string-array>
+    <string-array name="sensitivity_array_h264">
+		<item>最低</item>
+		<item>放低</item>       
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+	</string-array>
+	<string name="sensitivity_colon">灵敏度:</string>
+	<string name="title_activity_main">MainActivity</string>
+	<string name="title_activity_ipcam_settings_dialog">IPCamSettingsDialogActivity</string>
+	<string name="to_adjust_brightness_and_contrast">要調整亮度和對比度，在任何地方關閉這個對話框，然後擊在相機屏幕上。\n\n要數碼變焦,使用雙指往內撥動即可放大畫面，往外撥動則可縮小畫面。\n\n按住相機屏幕幾秒鐘，將數碼變焦復位到正常狀態。 </string>
+	<string name="url_path_colon">URL路径（或IP地址）:</string>
+	<string name="user_name_colon">用户名:</string>
+    <string name="v_patrol">垂直巡逻</string>
+	<string name="your_camera_url_path_is_invalid">您的相機URL路徑是無效的。</string>
+	<string name="speaker">喇叭</string>
+	<string name="mic">麥克風</string>
+	<string name="ir_on">IR On</string>
+	<string name="ir_off">IR Off</string>
+	<string name="mic_on">麥克風 On</string>
+	<string name="mic_off">麥克風 Off</string>
+	<string name="keep_screen_on">保持屏幕打開</string>
+	<string name="keep_speaker_on">保持揚聲器</string>
+	<string name="loading">載入中</string>
+	<string name="change_view">多台攝像機查看</string>
+    <string name="camera_name_empty">您的攝像機名稱不能為空。</string>
+    <string name="url_empty">您的相機URL路徑不能為空。</string>
+    <string name="port_number_empty">你的端口號不能為空。</string>
+    <string name="user_name_empty">您的用戶名“字段不能為空。</string>
+    <string name="duplicate_ipcam">一個的重複IP Camera已經存在。使用另一個URL路徑或端口號。</string>
+    <string name="duplicate_public_ipcam">重複的公共相機已經存在。選擇另一個公開攝像機。</string>
+    <string name="take_pict">拍照</string>
+    <string name="snapshot_has_been_created">\"{0}\"已創建。</string>
+    <string name="snapshot_could_not_be_taken">無法拍攝照片。</string>
+    <string name="remove_ad_in_app">刪除廣告（應用程序內購買）</string>
+    <string name="remove_ad">刪除廣告</string>
+    <string name="display_ad">顯示廣告</string>
+    <string name="public_camera_colon">公共攝像頭：</string>
+    <string name="enter_fullscreen">激活派送</string>
+    <string name="exit_fullscreen">取消派送</string>
+    <string name="low_res">低分辨率</string>
+    <string name="preset">預設</string>
+    <string name="set">定</string>
+    <string name="go">走</string>
+    <string name="in_app_success">謝謝您的應用程序內購買！</string>
+    <string name="in_app_failed">在應用程序內購買是不成功的。請再試一次。</string>
+    <string name="motion_detected">運動檢測！</string>
+    <string name="launch">發射</string>
+    <string name="disable">解除動員</string>
+    <string name="android_notification_has_been_disabled">IP Cam Remote裡的Android通知已禁用。</string>
+    <string name="you_can_re_enable_the_notification">您可以從IP Cam Remote通知設置重新啟用通知。</string>
+    <string name="camera_type">相機類型</string>
+    <string name="public_camera">公共</string>
+    <string name="enable_motion_detection">激活移動檢測</string>
+    <string name="enable_sound_detection">激活聲音檢測</string>
+    <string name="wide_screen">16:9 (寬銀幕)</string>
+	<string name="plese_wait">請稍候&#8230;</string>
+</resources>

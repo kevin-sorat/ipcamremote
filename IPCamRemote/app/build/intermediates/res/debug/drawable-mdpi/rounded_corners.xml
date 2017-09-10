@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" android:padding="10dp">
+
+    <solid android:color="#bb464646" />
+    <corners android:radius="8dp" />
+
+</shape><!-- From: file:/Users/kevin_sorat/AndroidstudioProjects/IPCamRemote/app/src/main/res/drawable-mdpi/rounded_corners.xml -->

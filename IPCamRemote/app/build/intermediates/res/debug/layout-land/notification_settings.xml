@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#bb464646"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/notificationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/notification_settings_colon"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        
+        <CheckBox
+            android:id="@+id/motionDetectionCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/notificationTextView"
+            android:layout_marginTop="20dp"
+            android:text="Enable Motion Detection"
+            android:textColor="@color/white" />
+        
+        <android.support.v7.widget.Space
+            android:id="@+id/motionSensitivitySpace"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/motionDetectionCheckBox" />
+        
+        <TextView
+            android:id="@+id/motionSensitivityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/motionDetectionCheckBox"
+            android:layout_toRightOf="@+id/motionSensitivitySpace"
+            android:text="@string/sensitivity_colon"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white" />
+
+        <Spinner
+            android:id="@+id/motionSensitivitySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/motionSensitivityTextView"
+            android:layout_alignStart="@+id/motionSensitivityTextView"
+            android:layout_alignLeft="@+id/motionSensitivityTextView" />
+        
+        <CheckBox
+            android:id="@+id/soundDetectionCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/motionSensitivitySpinner"
+            android:layout_marginTop="10dp"
+            android:text="@string/enable_sound_detection"
+            android:textColor="@color/white" />
+        
+        <android.support.v7.widget.Space
+            android:id="@+id/soundSensitivitySpace"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/soundDetectionCheckBox" />
+        
+        <TextView
+            android:id="@+id/soundSensitivityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/soundDetectionCheckBox"
+            android:layout_toRightOf="@+id/soundSensitivitySpace"
+            android:layout_toEndOf="@+id/soundSensitivitySpace"
+            android:text="@string/sensitivity_colon"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white" />
+
+        <Spinner
+            android:id="@+id/soundSensitivitySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/soundSensitivityTextView"
+            android:layout_alignStart="@+id/soundSensitivityTextView"
+            android:layout_alignLeft="@+id/soundSensitivityTextView" />
+
+        <CheckBox
+            android:id="@+id/androidNotificationCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true" 
+            android:layout_below="@+id/soundSensitivitySpinner"
+            android:layout_marginTop="10dp"
+            android:text="@string/enable_android_notification"
+            android:textColor="@color/white"
+            android:enabled="false" />
+        
+        <CheckBox
+            android:id="@+id/emailNotificationCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/androidNotificationCheckBox"
+            android:layout_marginTop="10dp"
+            android:text="@string/enable_email_notification"
+            android:textColor="@color/white"
+            android:enabled="false" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/emailNotificationCheckBox"
+            android:layout_marginTop="40dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/okButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:minWidth="80dip"
+                android:text="@string/ok" />
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/okButton"
+                android:layout_toLeftOf="@+id/okButton"
+                android:minWidth="80dip"
+                android:text="@string/cancel" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView><!-- From: file:/Users/kevin_sorat/AndroidstudioProjects/IPCamRemote/app/src/main/res/layout-land/notification_settings.xml -->

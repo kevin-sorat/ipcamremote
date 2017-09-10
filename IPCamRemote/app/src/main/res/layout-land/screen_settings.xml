@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#bb464646"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/instructionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/display_settings_colon"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+      	<CheckBox
+            android:id="@+id/verticalInvertCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+           	android:layout_below="@+id/instructionTextView"
+           	android:layout_marginTop="10dp"
+           	android:layout_marginRight="46dp"
+            android:text="@string/flip_vertically"
+            android:textColor="@color/white" />
+      	
+        <CheckBox
+            android:id="@+id/verticalInvertControlCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/instructionTextView"
+            android:layout_toRightOf="@+id/verticalInvertCheckBox"
+            android:layout_marginTop="10dp"
+            android:text="@string/flip_control_vertically"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/mirrorCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/verticalInvertCheckBox"
+            android:layout_marginTop="5dp"
+            android:text="@string/mirror"
+            android:textColor="@color/white" />
+        
+        <CheckBox
+            android:id="@+id/mirrorControlCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/verticalInvertControlCheckBox"
+            android:layout_toRightOf="@+id/verticalInvertCheckBox"
+            android:layout_marginTop="5dp"
+            android:text="@string/mirror_control"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/keepScreenOnCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/mirrorCheckBox"
+            android:layout_marginTop="5dp"
+            android:text="@string/keep_screen_on"
+            android:textColor="@color/white" />
+        
+        <CheckBox
+            android:id="@+id/lowResCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mirrorControlCheckBox"
+            android:layout_toRightOf="@+id/verticalInvertCheckBox"
+            android:layout_marginTop="5dp"
+            android:text="@string/low_res"
+            android:textColor="@color/white" />
+        
+        <CheckBox
+            android:id="@+id/keepSpeakerOnCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/keepScreenOnCheckBox"
+            android:layout_marginTop="5dp"
+            android:text="@string/keep_speaker_on"
+            android:textColor="@color/white" />
+        
+        <CheckBox
+            android:id="@+id/wideScreenCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lowResCheckBox"
+            android:layout_toRightOf="@+id/verticalInvertCheckBox"
+            android:layout_marginTop="5dp"
+            android:text="@string/wide_screen"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/noteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/keepSpeakerOnCheckBox"
+            android:layout_marginTop="5dp"
+            android:text="@string/to_adjust_brightness_and_contrast"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/noteTextView"
+            android:layout_marginTop="10dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/okButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="20dp"
+                android:minWidth="80dip"
+                android:text="@string/ok" />
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/okButton"
+                android:minWidth="80dip"
+                android:text="@string/cancel" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

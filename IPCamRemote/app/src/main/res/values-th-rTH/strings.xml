@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">IP Cam Remote</string>
+	<string name="brightness">ความสว่าง</string>
+	<string name="contrast">ความตัดกัน</string>
+	<string-array name="cameras_array">
+		<item>1:</item>
+		<item>2:</item>
+		<item>3:</item>
+		<item>4:</item>
+		<item>5:</item>
+		<item>6:</item>
+		<item>7:</item>
+		<item>8:</item>
+		<item>9:</item>
+		<item>10:</item>
+		<item>11:</item>
+		<item>12:</item>
+		<item>13:</item>
+		<item>14:</item>
+		<item>15:</item>
+		<item>16:</item>
+        <item>17:</item>
+        <item>18:</item>
+	</string-array>
+	<string name="cancel">ยกเลิก</string>
+	<string name="clear">ลบทิ้ง</string>
+	<string name="connection_settings">การตั้งค่าการเชื่อมต่อ</string>
+	<string name="connection_settings_colon">การตั้งค่าการเชื่อมต่อ:</string>
+	<string name="display_settings_colon">การตั้งหน้าจอและที่ควบคุม:</string>
+	<string name="enable_android_notification">เปิดใช้งานการแจ้งทางAndroid\n(ตรวจจับการเคลื่อนไหวเท่านั้น)</string>
+	<string name="enable_email_notification">เปิดใช้งานการแจ้งทางอีเมล</string>
+	<string name="flip_vertically">พลิกจอ</string>
+	<string name="flip_control_vertically">พลิกที่ควบคุม</string>
+	<string name="ipcam_view_cannot_be_displayed">IP Camera ไม่สามารถแสดง ให้แน่ใจว่าคุณมีการเชื่อมต่ออินเทอร์เน็ตและให้ข้อมูลที่ถูกต้องใน "การตั้งค่าการเชื่อมต่อ"</string>
+	<string name="go_to_monitoring_system">ไปตรวจสอบระบบ</string>
+	<string name="h_patrol">หมุนแนวราบ</string>
+	<string name="menu_settings">การตั้งค่า</string>
+	<string name="mirror">จอแบบกระจก</string>
+	<string name="mirror_control">ควบคุมแบบกระจก</string>
+	<string name="name_colon">ชื่อ:</string>
+	<string name="notification_settings">การตั้งค่าการแจ้งเตือน</string>
+	<string name="notification_settings_colon">การตั้งค่าการแจ้งเตือน:</string>
+	<string name="ok">ตกลง</string>
+	<string name="password_colon">รหัสผ่าน</string>
+	<string name="port_number_colon">หมายเลขพอร์ต:</string>
+	<string name="screen_settings">การตั้งหน้าจอและที่ควบคุม</string>
+	<string-array name="sensitivity_array">
+        <item>10 (สูง)</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1 (ต่ำมาก)</item>
+    </string-array>
+    <string-array name="sensitivity_array_h264">
+		<item>ต่ำที่สุด</item>
+		<item>ต่ำลง</item>       
+        <item>ต่ำ</item>
+        <item>กลาง</item>
+        <item>สูง</item>
+	</string-array>
+	<string name="sensitivity_colon">ความไว:</string>
+	<string name="title_activity_main">MainActivity</string>
+	<string name="title_activity_ipcam_settings_dialog">IPCamSettingsDialogActivity</string>
+	<string name="to_adjust_brightness_and_contrast">เพื่อปรับความสว่างและความคมชัด ปิดหน้าต่างนี้แล้วแตะที่ใดก็ได้บนหน้าจอกล้อง\n\nแยกสองนิ้วออกจากกันเพื่อการซูมเข้าและหยิกสองนิ้วด้วยกันเพื่อซูมออก\n\nใช้นิ้วกดค้างไว้ที่หน้าจอ2-3วินาทีเพื่อยกเลิกการซูม</string>
+	<string name="url_path_colon">เส้นทาง URL (หรือ IP Address):</string>
+	<string name="user_name_colon">ชื่อผู้ใช้:</string>
+    <string name="v_patrol">หมุนแนวตั้ง</string>
+	<string name="your_camera_url_path_is_invalid">เส้นทาง URL ของกล้องไม่ถูกต้อง</string>
+	<string name="speaker">ลำโพง</string>
+	<string name="mic">ไมค์</string>
+	<string name="ir_on">IR เปิด</string>
+	<string name="ir_off">IR ปิด</string>
+	<string name="mic_on">ไมโครโฟน เปิด</string>
+	<string name="mic_off">ไมโครโฟน ปิด</string>
+	<string name="keep_screen_on">หน้าจอเปิดอยู่เสมอ</string>
+	<string name="keep_speaker_on">ลำโพงเปิดอยู่เสมอ</string>
+	<string name="loading">กำลังโหลด</string>
+	<string name="change_view">ดูกล้องหลายตัว</string>
+    <string name="camera_name_empty">ชื่อกล้องของคุณไม่สามารถจะว่างเปล่า</string>
+    <string name="url_empty">เส้นทาง URL ของคุณกล้องไม่สามารถเว้นว่าง</string>
+    <string name="port_number_empty">หมายเลขพอร์ตของคุณต้องไม่ว่างเปล่า</string>
+    <string name="user_name_empty">ฟิลด์ชื่อของคุณไม่สามารถจะว่างเปล่า</string>
+    <string name="duplicate_ipcam">IP Camera ซ้ำกันอยู่แล้ว ใช้เส้นทาง URL อื่นหรือพอร์ portnumber</string>
+    <string name="duplicate_public_ipcam">กล้องสาธารณะซ้ำกันอยู่แล้ว เลือกกล้องสาธารณะอื่น</string>
+    <string name="take_pict">ถ่ายภาพ</string>
+    <string name="snapshot_has_been_created">\"{0}\"ได้รับการสร้างขึ้น</string>
+    <string name="snapshot_could_not_be_taken">ไม่สามารถสร้างภาพถ่าย</string>
+    <string name="remove_ad_in_app">ลบโฆษณา (In-App Purchase)</string>
+    <string name="remove_ad">ลบโฆษณา</string>
+    <string name="display_ad">แสดงโฆษณา</string>
+    <string name="public_camera_colon">กล้องสาธารณะ:</string>
+    <string name="enter_fullscreen">เปิดใช้งานแบบเต็มจอ</string>
+    <string name="exit_fullscreen">ยกเลิกการใช้งานแบบเต็มจอ</string>
+    <string name="low_res">ความละเอียดต่ำ</string>
+    <string name="preset">ตั้งล่วงหน้า</string>
+    <string name="set">ตั้ง</string>
+    <string name="go">ไป</string>
+    <string name="in_app_success">ขอบคุณสำหรับการซื้อ</string>
+    <string name="in_app_failed">การซื้อในแอพไม่ประสบความสำเร็จ โปรดลองอีกครั้ง</string>
+    <string name="motion_detected">การเคลื่อนไหวตรวจพบ</string>
+    <string name="launch">เปิดแอพ</string>
+    <string name="disable">ปิดการใช้งาน</string>
+    <string name="android_notification_has_been_disabled">การแจ้งเตือนถูกปิดใช้งานสำหรับ IP Cam Remote</string>
+    <string name="you_can_re_enable_the_notification">คุณสามารถเปิดใช้งานการแจ้งเตือนจากการตั้งค่าการแจ้งเตือน</string>
+    <string name="camera_type">ประเภทกล้อง</string>
+    <string name="public_camera">สาธารณะ</string>
+    <string name="enable_motion_detection">เปิดใช้งานการตรวจจับการเคลื่อนไหว</string>
+    <string name="enable_sound_detection">เปิดใช้งานการตรวจจับเสียง</string>
+    <string name="wide_screen">16:9 (จอกว้าง)</string>
+	<string name="plese_wait">กรุณารอสักครู่ &#8230;</string>
+</resources>
